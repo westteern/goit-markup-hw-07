@@ -7,7 +7,6 @@
     color: $titel-text-color;
 }
 .nav {
-    @extend %container;
     display: flex;
     align-items: center;
 }
