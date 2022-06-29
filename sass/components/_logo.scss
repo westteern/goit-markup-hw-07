@@ -7,9 +7,18 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
 
-    text-decoration: none;   
+    text-decoration: none;
+
+    .footer & {
+        color: $second-accent-color;
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    &--blue {
+        color: $accent-color;
+    }   
 }
-.logo--blue {
-    color: $accent-color;
-}
+
 
