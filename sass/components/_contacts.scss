@@ -9,7 +9,7 @@
 }
 
 .contacts__link {
-    @include centredFlex(flex);
+    @include centredFlex(flex, center, center);
     padding-top: 32px;
     padding-bottom: 32px;
 

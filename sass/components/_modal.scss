@@ -19,7 +19,7 @@
     top: 8px;
     right: 8px;
 
-    @include centredFlex(flex);
+    @include centredFlex(flex, center, center);
 
     width: 30px;
     height: 30px;
@@ -35,6 +35,12 @@
     &:focus {
         fill: $accent-color;
     }    
+}
+.modal__button {
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 

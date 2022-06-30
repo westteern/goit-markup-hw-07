@@ -1,9 +1,8 @@
 .social-list {
     @extend %list;
-    display: flex;
-    justify-content: center;
-    
-    &__item {
+    @include centredFlex(flex, center, null);
+        
+    .social-list__item {
         width: 44px;
         height: 44px;
     }    

@@ -1,8 +1,6 @@
 .filter {
     @extend %list;
-
-    display: flex;
-    justify-content: center;
+    @include centredFlex(flex, center, null);    
     margin-bottom: 50px;
 }
 

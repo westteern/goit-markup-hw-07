@@ -132,20 +132,19 @@
     fill: $second-accent-color;
 }
 
-.checkbox:checked+.icon-position {
+.checkbox:checked + .icon-position {
     background-color: $accent-color;
     border: none;
 }
 
-.checkbox:focus+.icon-position {
+.checkbox:focus + .icon-position {
     border-color: $accent-color;
     outline: 1px solid #212121;
 }
 
 .checkbox-text {
-    display: flex;
-    justify-content: center;
-
+    @include centredFlex(flex, center, null);
+    
     padding-left: 24px;
     font-size: 14px;
     line-height: 1.71;
@@ -160,6 +159,7 @@
 }
 
 .contract .underline {
+    display: inline-block;
     line-height: 0.85;
     border-bottom: 1px solid;
 }

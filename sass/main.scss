@@ -1,9 +1,12 @@
 @import "./utils/variables";
 @import "./utils/placeholders";
 @import "./utils/mixins";
+@import './utils/v-hidden';
 
 @import "./components/body";
 
+@import "./components/section";
+@import './components/container';
 @import "./components/logo";
 @import "./components/button";
 @import "./components/mailing-form";
@@ -27,3 +30,5 @@
 @import "./components/application-form";
 
 @import "./components/portfolio-filter";
+@import "./components/work-wrap";
+@import "./components/work-card";

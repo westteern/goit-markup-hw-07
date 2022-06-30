@@ -11,13 +11,13 @@
     background-size: cover;
     background-repeat: no-repeat;
 
-    &__container {
+    .hero__container {
         display: block;
         width: 696px;
         text-align: center;
     }
 
-    &__title {
+    .hero__title {
         display: inline-block;
         width: 100%;
         margin-top: 0;

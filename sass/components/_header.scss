@@ -7,8 +7,7 @@
     color: $titel-text-color;
 }
 .nav {
-    display: flex;
-    align-items: center;
+    @include centredFlex(flex, null, center);
 }
 
 
