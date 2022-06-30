@@ -22,7 +22,8 @@
     transition: background-color $prime-transition-timing-function $prime-animation;
 
     &:hover,
-    &:focus {
+    &:focus,
+    &:active {
         background-color: #188ce8;
     }
 }

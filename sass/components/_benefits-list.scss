@@ -5,7 +5,7 @@
         width: 270px;
     }
     &__icon-bg {
-        @include centred;
+        @include centredFlex(flex);
         
         max-width: 270px;
         height: 120px;
