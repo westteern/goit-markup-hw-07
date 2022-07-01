@@ -1,6 +1,10 @@
 .address-list {
     @extend %list;    
 }
+.address-list__item :not(last-child) {
+    margin-bottom: 9px;
+}
+
 .address-list__link {
     display: block;
     color: rgba(255, 255, 255, 0.6);
@@ -22,5 +26,4 @@
     &:focus {
             color: $accent-color;
     }
-
 }

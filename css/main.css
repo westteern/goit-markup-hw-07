@@ -36,6 +36,8 @@ body {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 span {
@@ -419,6 +421,10 @@ span {
   color: #ffffff;
 }
 
+.social-link__icon--white {
+  color: #ffffff;
+}
+
 .client-list {
   display: flex;
 }
@@ -483,6 +489,10 @@ span {
 
 .social-link--bcg {
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.address-list__item :not(last-child) {
+  margin-bottom: 9px;
 }
 
 .address-list__link {
