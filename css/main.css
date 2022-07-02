@@ -223,7 +223,7 @@ span {
   margin-left: auto;
 }
 
-.contacts__item:last-child {
+.contacts__item:not(:first-child) {
   margin-left: 30px;
 }
 
