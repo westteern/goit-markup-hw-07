@@ -1,7 +1,7 @@
 .address-list {
     @extend %list;    
 }
-.address-list__item :not(last-child) {
+.address-list__item:not(:last-child) {
     margin-bottom: 9px;
 }
 
