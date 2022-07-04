@@ -107,6 +107,9 @@ span {
   background-color: #188ce8;
 }
 
+.form {
+  display: flex;
+}
 .form .form__input {
   width: 358px;
   padding: 15px 16px;
@@ -117,7 +120,7 @@ span {
   background-color: inherit;
 }
 .form .form__button {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 12px;
